@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.AppComponent{
+  width: auto;
+  height: 25vh;
+  border: 2px solid red;
+}
+
+.HeroPageComponent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid darkgreen ;
+  height: 25vh;
+  width:100%;  /* viewport width  laptop screen ka 
+  left to right jitna bhi size hai wo pura lega*/
+}
